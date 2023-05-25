@@ -1,0 +1,1813 @@
+{
+    "version": "V2",
+    "requestId": "fc894a06-68ba-42ba-b31f-a22beb618bd3",
+    "timestamp": 1684978587633,
+    "images": [
+        {
+            "uid": "973056791a434dbd9db08816676e1a97",
+            "name": "demo",
+            "inferResult": "SUCCESS",
+            "message": "SUCCESS",
+            "matchedTemplate": {
+                "id": 24935,
+                "name": "test"
+            },
+            "validationResult": {
+                "result": "NO_REQUESTED"
+            },
+            "convertedImageInfo": {
+                "width": 1917,
+                "height": 2718,
+                "pageIndex": 0,
+                "longImage": false
+            },
+            "fields": [
+                {
+                    "name": "prescriptionNo",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 331.0,
+                                "y": 518.0
+                            },
+                            {
+                                "x": 936.0,
+                                "y": 518.0
+                            },
+                            {
+                                "x": 936.0,
+                                "y": 569.0
+                            },
+                            {
+                                "x": 331.0,
+                                "y": 569.0
+                            }
+                        ]
+                    },
+                    "inferText": "2023 년 05 월 20 일 제 제 02800 호",
+                    "inferConfidence": 0.9777875,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 331.0,
+                                        "y": 531.0
+                                    },
+                                    {
+                                        "x": 412.0,
+                                        "y": 531.0
+                                    },
+                                    {
+                                        "x": 412.0,
+                                        "y": 569.0
+                                    },
+                                    {
+                                        "x": 331.0,
+                                        "y": 569.0
+                                    }
+                                ]
+                            },
+                            "inferText": "2023",
+                            "inferConfidence": 0.9999,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 420.0,
+                                        "y": 527.0
+                                    },
+                                    {
+                                        "x": 465.0,
+                                        "y": 527.0
+                                    },
+                                    {
+                                        "x": 465.0,
+                                        "y": 569.0
+                                    },
+                                    {
+                                        "x": 420.0,
+                                        "y": 569.0
+                                    }
+                                ]
+                            },
+                            "inferText": "년",
+                            "inferConfidence": 0.9999,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 465.0,
+                                        "y": 529.0
+                                    },
+                                    {
+                                        "x": 514.0,
+                                        "y": 529.0
+                                    },
+                                    {
+                                        "x": 514.0,
+                                        "y": 567.0
+                                    },
+                                    {
+                                        "x": 465.0,
+                                        "y": 567.0
+                                    }
+                                ]
+                            },
+                            "inferText": "05",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 510.0,
+                                        "y": 527.0
+                                    },
+                                    {
+                                        "x": 548.0,
+                                        "y": 527.0
+                                    },
+                                    {
+                                        "x": 548.0,
+                                        "y": 567.0
+                                    },
+                                    {
+                                        "x": 510.0,
+                                        "y": 567.0
+                                    }
+                                ]
+                            },
+                            "inferText": "월",
+                            "inferConfidence": 0.9591,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 556.0,
+                                        "y": 524.0
+                                    },
+                                    {
+                                        "x": 607.0,
+                                        "y": 524.0
+                                    },
+                                    {
+                                        "x": 607.0,
+                                        "y": 565.0
+                                    },
+                                    {
+                                        "x": 556.0,
+                                        "y": 565.0
+                                    }
+                                ]
+                            },
+                            "inferText": "20",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 605.0,
+                                        "y": 525.0
+                                    },
+                                    {
+                                        "x": 747.0,
+                                        "y": 522.0
+                                    },
+                                    {
+                                        "x": 748.0,
+                                        "y": 560.0
+                                    },
+                                    {
+                                        "x": 605.0,
+                                        "y": 563.0
+                                    }
+                                ]
+                            },
+                            "inferText": "일 제 제",
+                            "inferConfidence": 0.8634,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 754.0,
+                                        "y": 520.0
+                                    },
+                                    {
+                                        "x": 847.0,
+                                        "y": 520.0
+                                    },
+                                    {
+                                        "x": 847.0,
+                                        "y": 556.0
+                                    },
+                                    {
+                                        "x": 754.0,
+                                        "y": 556.0
+                                    }
+                                ]
+                            },
+                            "inferText": "02800",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 894.0,
+                                        "y": 518.0
+                                    },
+                                    {
+                                        "x": 936.0,
+                                        "y": 518.0
+                                    },
+                                    {
+                                        "x": 936.0,
+                                        "y": 552.0
+                                    },
+                                    {
+                                        "x": 894.0,
+                                        "y": 552.0
+                                    }
+                                ]
+                            },
+                            "inferText": "호",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "name",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 529.0,
+                                "y": 603.0
+                            },
+                            {
+                                "x": 631.0,
+                                "y": 603.0
+                            },
+                            {
+                                "x": 631.0,
+                                "y": 643.0
+                            },
+                            {
+                                "x": 529.0,
+                                "y": 643.0
+                            }
+                        ]
+                    },
+                    "inferText": "임가영",
+                    "inferConfidence": 0.9934,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 529.0,
+                                        "y": 603.0
+                                    },
+                                    {
+                                        "x": 631.0,
+                                        "y": 603.0
+                                    },
+                                    {
+                                        "x": 631.0,
+                                        "y": 643.0
+                                    },
+                                    {
+                                        "x": 529.0,
+                                        "y": 643.0
+                                    }
+                                ]
+                            },
+                            "inferText": "임가영",
+                            "inferConfidence": 0.9934,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "nameNo",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 689.0
+                            },
+                            {
+                                "x": 764.0,
+                                "y": 680.0
+                            },
+                            {
+                                "x": 766.0,
+                                "y": 719.0
+                            },
+                            {
+                                "x": 523.0,
+                                "y": 728.0
+                            }
+                        ]
+                    },
+                    "inferText": "020923-4123437",
+                    "inferConfidence": 0.9996,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 521.0,
+                                        "y": 689.0
+                                    },
+                                    {
+                                        "x": 764.0,
+                                        "y": 680.0
+                                    },
+                                    {
+                                        "x": 766.0,
+                                        "y": 719.0
+                                    },
+                                    {
+                                        "x": 523.0,
+                                        "y": 728.0
+                                    }
+                                ]
+                            },
+                            "inferText": "020923-4123437",
+                            "inferConfidence": 0.9996,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineNo_1",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 232.0,
+                                "y": 1020.0
+                            },
+                            {
+                                "x": 388.0,
+                                "y": 1012.0
+                            },
+                            {
+                                "x": 390.0,
+                                "y": 1049.0
+                            },
+                            {
+                                "x": 234.0,
+                                "y": 1058.0
+                            }
+                        ]
+                    },
+                    "inferText": "646902600",
+                    "inferConfidence": 0.9995,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 232.0,
+                                        "y": 1020.0
+                                    },
+                                    {
+                                        "x": 388.0,
+                                        "y": 1012.0
+                                    },
+                                    {
+                                        "x": 390.0,
+                                        "y": 1049.0
+                                    },
+                                    {
+                                        "x": 234.0,
+                                        "y": 1058.0
+                                    }
+                                ]
+                            },
+                            "inferText": "646902600",
+                            "inferConfidence": 0.9995,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineName_1",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 395.0,
+                                "y": 992.0
+                            },
+                            {
+                                "x": 832.0,
+                                "y": 988.0
+                            },
+                            {
+                                "x": 834.0,
+                                "y": 1033.0
+                            },
+                            {
+                                "x": 398.0,
+                                "y": 1051.0
+                            }
+                        ]
+                    },
+                    "inferText": "(/1정 타이레놀8시간이알서방정",
+                    "inferConfidence": 0.97655,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 748.0,
+                                        "y": 992.0
+                                    },
+                                    {
+                                        "x": 832.0,
+                                        "y": 988.0
+                                    },
+                                    {
+                                        "x": 834.0,
+                                        "y": 1025.0
+                                    },
+                                    {
+                                        "x": 750.0,
+                                        "y": 1029.0
+                                    }
+                                ]
+                            },
+                            "inferText": "(/1정",
+                            "inferConfidence": 0.9744,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 395.0,
+                                        "y": 1008.0
+                                    },
+                                    {
+                                        "x": 755.0,
+                                        "y": 990.0
+                                    },
+                                    {
+                                        "x": 757.0,
+                                        "y": 1033.0
+                                    },
+                                    {
+                                        "x": 398.0,
+                                        "y": 1051.0
+                                    }
+                                ]
+                            },
+                            "inferText": "타이레놀8시간이알서방정",
+                            "inferConfidence": 0.9787,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineTime_1",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1034.0,
+                                "y": 979.0
+                            },
+                            {
+                                "x": 1066.0,
+                                "y": 979.0
+                            },
+                            {
+                                "x": 1066.0,
+                                "y": 1015.0
+                            },
+                            {
+                                "x": 1034.0,
+                                "y": 1015.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1034.0,
+                                        "y": 979.0
+                                    },
+                                    {
+                                        "x": 1066.0,
+                                        "y": 979.0
+                                    },
+                                    {
+                                        "x": 1066.0,
+                                        "y": 1015.0
+                                    },
+                                    {
+                                        "x": 1034.0,
+                                        "y": 1015.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 0.9999,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineDay_1",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1140.0,
+                                "y": 973.0
+                            },
+                            {
+                                "x": 1172.0,
+                                "y": 973.0
+                            },
+                            {
+                                "x": 1172.0,
+                                "y": 1011.0
+                            },
+                            {
+                                "x": 1140.0,
+                                "y": 1011.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 0.9998,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1140.0,
+                                        "y": 973.0
+                                    },
+                                    {
+                                        "x": 1172.0,
+                                        "y": 973.0
+                                    },
+                                    {
+                                        "x": 1172.0,
+                                        "y": 1011.0
+                                    },
+                                    {
+                                        "x": 1140.0,
+                                        "y": 1011.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 0.9998,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineNo_2",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 232.0,
+                                "y": 1075.0
+                            },
+                            {
+                                "x": 386.0,
+                                "y": 1068.0
+                            },
+                            {
+                                "x": 388.0,
+                                "y": 1104.0
+                            },
+                            {
+                                "x": 234.0,
+                                "y": 1111.0
+                            }
+                        ]
+                    },
+                    "inferText": "649900060",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 232.0,
+                                        "y": 1075.0
+                                    },
+                                    {
+                                        "x": 386.0,
+                                        "y": 1068.0
+                                    },
+                                    {
+                                        "x": 388.0,
+                                        "y": 1104.0
+                                    },
+                                    {
+                                        "x": 234.0,
+                                        "y": 1111.0
+                                    }
+                                ]
+                            },
+                            "inferText": "649900060",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineName_2",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 393.0,
+                                "y": 1066.0
+                            },
+                            {
+                                "x": 615.0,
+                                "y": 1054.0
+                            },
+                            {
+                                "x": 617.0,
+                                "y": 1092.0
+                            },
+                            {
+                                "x": 395.0,
+                                "y": 1104.0
+                            }
+                        ]
+                    },
+                    "inferText": "우코스타정/1정",
+                    "inferConfidence": 0.9418,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 393.0,
+                                        "y": 1066.0
+                                    },
+                                    {
+                                        "x": 615.0,
+                                        "y": 1054.0
+                                    },
+                                    {
+                                        "x": 617.0,
+                                        "y": 1092.0
+                                    },
+                                    {
+                                        "x": 395.0,
+                                        "y": 1104.0
+                                    }
+                                ]
+                            },
+                            "inferText": "우코스타정/1정",
+                            "inferConfidence": 0.9418,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineTime_2",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1036.0,
+                                "y": 1034.0
+                            },
+                            {
+                                "x": 1064.0,
+                                "y": 1034.0
+                            },
+                            {
+                                "x": 1064.0,
+                                "y": 1070.0
+                            },
+                            {
+                                "x": 1036.0,
+                                "y": 1070.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1036.0,
+                                        "y": 1034.0
+                                    },
+                                    {
+                                        "x": 1064.0,
+                                        "y": 1034.0
+                                    },
+                                    {
+                                        "x": 1064.0,
+                                        "y": 1070.0
+                                    },
+                                    {
+                                        "x": 1036.0,
+                                        "y": 1070.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineDay_2",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1140.0,
+                                "y": 1028.0
+                            },
+                            {
+                                "x": 1172.0,
+                                "y": 1028.0
+                            },
+                            {
+                                "x": 1172.0,
+                                "y": 1066.0
+                            },
+                            {
+                                "x": 1140.0,
+                                "y": 1066.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1140.0,
+                                        "y": 1028.0
+                                    },
+                                    {
+                                        "x": 1172.0,
+                                        "y": 1028.0
+                                    },
+                                    {
+                                        "x": 1172.0,
+                                        "y": 1066.0
+                                    },
+                                    {
+                                        "x": 1140.0,
+                                        "y": 1066.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 1.0,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineNo_3",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 232.0,
+                                "y": 1132.0
+                            },
+                            {
+                                "x": 386.0,
+                                "y": 1124.0
+                            },
+                            {
+                                "x": 388.0,
+                                "y": 1161.0
+                            },
+                            {
+                                "x": 234.0,
+                                "y": 1169.0
+                            }
+                        ]
+                    },
+                    "inferText": "645701150",
+                    "inferConfidence": 0.9996,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 232.0,
+                                        "y": 1132.0
+                                    },
+                                    {
+                                        "x": 386.0,
+                                        "y": 1124.0
+                                    },
+                                    {
+                                        "x": 388.0,
+                                        "y": 1161.0
+                                    },
+                                    {
+                                        "x": 234.0,
+                                        "y": 1169.0
+                                    }
+                                ]
+                            },
+                            "inferText": "645701150",
+                            "inferConfidence": 0.9996,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineName_3",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 393.0,
+                                "y": 1121.0
+                            },
+                            {
+                                "x": 585.0,
+                                "y": 1111.0
+                            },
+                            {
+                                "x": 588.0,
+                                "y": 1154.0
+                            },
+                            {
+                                "x": 395.0,
+                                "y": 1164.0
+                            }
+                        ]
+                    },
+                    "inferText": "코데날정/1정",
+                    "inferConfidence": 0.9816,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 393.0,
+                                        "y": 1121.0
+                                    },
+                                    {
+                                        "x": 585.0,
+                                        "y": 1111.0
+                                    },
+                                    {
+                                        "x": 588.0,
+                                        "y": 1154.0
+                                    },
+                                    {
+                                        "x": 395.0,
+                                        "y": 1164.0
+                                    }
+                                ]
+                            },
+                            "inferText": "코데날정/1정",
+                            "inferConfidence": 0.9816,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineTime_3",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1032.0,
+                                "y": 1087.0
+                            },
+                            {
+                                "x": 1064.0,
+                                "y": 1087.0
+                            },
+                            {
+                                "x": 1064.0,
+                                "y": 1125.0
+                            },
+                            {
+                                "x": 1032.0,
+                                "y": 1125.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 0.9996,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1032.0,
+                                        "y": 1087.0
+                                    },
+                                    {
+                                        "x": 1064.0,
+                                        "y": 1087.0
+                                    },
+                                    {
+                                        "x": 1064.0,
+                                        "y": 1125.0
+                                    },
+                                    {
+                                        "x": 1032.0,
+                                        "y": 1125.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 0.9996,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineDay_3",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1138.0,
+                                "y": 1083.0
+                            },
+                            {
+                                "x": 1170.0,
+                                "y": 1083.0
+                            },
+                            {
+                                "x": 1170.0,
+                                "y": 1121.0
+                            },
+                            {
+                                "x": 1138.0,
+                                "y": 1121.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1138.0,
+                                        "y": 1083.0
+                                    },
+                                    {
+                                        "x": 1170.0,
+                                        "y": 1083.0
+                                    },
+                                    {
+                                        "x": 1170.0,
+                                        "y": 1121.0
+                                    },
+                                    {
+                                        "x": 1138.0,
+                                        "y": 1121.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 0.9999,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineNo_4",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 230.0,
+                                "y": 1188.0
+                            },
+                            {
+                                "x": 384.0,
+                                "y": 1178.0
+                            },
+                            {
+                                "x": 386.0,
+                                "y": 1215.0
+                            },
+                            {
+                                "x": 232.0,
+                                "y": 1225.0
+                            }
+                        ]
+                    },
+                    "inferText": "645700791",
+                    "inferConfidence": 0.9996,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 230.0,
+                                        "y": 1188.0
+                                    },
+                                    {
+                                        "x": 384.0,
+                                        "y": 1178.0
+                                    },
+                                    {
+                                        "x": 386.0,
+                                        "y": 1215.0
+                                    },
+                                    {
+                                        "x": 232.0,
+                                        "y": 1225.0
+                                    }
+                                ]
+                            },
+                            "inferText": "645700791",
+                            "inferConfidence": 0.9996,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineName_4",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 389.0,
+                                "y": 1176.0
+                            },
+                            {
+                                "x": 785.0,
+                                "y": 1153.0
+                            },
+                            {
+                                "x": 787.0,
+                                "y": 1193.0
+                            },
+                            {
+                                "x": 391.0,
+                                "y": 1216.0
+                            }
+                        ]
+                    },
+                    "inferText": "삼아탑금액(외용)/100mL/병",
+                    "inferConfidence": 0.8967,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 389.0,
+                                        "y": 1176.0
+                                    },
+                                    {
+                                        "x": 785.0,
+                                        "y": 1153.0
+                                    },
+                                    {
+                                        "x": 787.0,
+                                        "y": 1193.0
+                                    },
+                                    {
+                                        "x": 391.0,
+                                        "y": 1216.0
+                                    }
+                                ]
+                            },
+                            "inferText": "삼아탑금액(외용)/100mL/병",
+                            "inferConfidence": 0.8967,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineTime_4",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1036.0,
+                                "y": 1145.0
+                            },
+                            {
+                                "x": 1060.0,
+                                "y": 1145.0
+                            },
+                            {
+                                "x": 1060.0,
+                                "y": 1179.0
+                            },
+                            {
+                                "x": 1036.0,
+                                "y": 1179.0
+                            }
+                        ]
+                    },
+                    "inferText": "1",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1036.0,
+                                        "y": 1145.0
+                                    },
+                                    {
+                                        "x": 1060.0,
+                                        "y": 1145.0
+                                    },
+                                    {
+                                        "x": 1060.0,
+                                        "y": 1179.0
+                                    },
+                                    {
+                                        "x": 1036.0,
+                                        "y": 1179.0
+                                    }
+                                ]
+                            },
+                            "inferText": "1",
+                            "inferConfidence": 1.0,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineDay_4",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1147.0,
+                                "y": 1140.0
+                            },
+                            {
+                                "x": 1166.0,
+                                "y": 1140.0
+                            },
+                            {
+                                "x": 1166.0,
+                                "y": 1172.0
+                            },
+                            {
+                                "x": 1147.0,
+                                "y": 1172.0
+                            }
+                        ]
+                    },
+                    "inferText": "1",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1147.0,
+                                        "y": 1140.0
+                                    },
+                                    {
+                                        "x": 1166.0,
+                                        "y": 1140.0
+                                    },
+                                    {
+                                        "x": 1166.0,
+                                        "y": 1172.0
+                                    },
+                                    {
+                                        "x": 1147.0,
+                                        "y": 1172.0
+                                    }
+                                ]
+                            },
+                            "inferText": "1",
+                            "inferConfidence": 1.0,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineNo_5",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 227.0,
+                                "y": 1243.0
+                            },
+                            {
+                                "x": 383.0,
+                                "y": 1230.0
+                            },
+                            {
+                                "x": 387.0,
+                                "y": 1267.0
+                            },
+                            {
+                                "x": 230.0,
+                                "y": 1280.0
+                            }
+                        ]
+                    },
+                    "inferText": "073100190",
+                    "inferConfidence": 0.9994,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 227.0,
+                                        "y": 1243.0
+                                    },
+                                    {
+                                        "x": 383.0,
+                                        "y": 1230.0
+                                    },
+                                    {
+                                        "x": 387.0,
+                                        "y": 1267.0
+                                    },
+                                    {
+                                        "x": 230.0,
+                                        "y": 1280.0
+                                    }
+                                ]
+                            },
+                            "inferText": "073100190",
+                            "inferConfidence": 0.9994,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineName_5",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 386.0,
+                                "y": 1219.0
+                            },
+                            {
+                                "x": 764.0,
+                                "y": 1209.0
+                            },
+                            {
+                                "x": 766.0,
+                                "y": 1260.0
+                            },
+                            {
+                                "x": 389.0,
+                                "y": 1272.0
+                            }
+                        ]
+                    },
+                    "inferText": "10mg(내복)/1정 싱귤레어정",
+                    "inferConfidence": 0.9992,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 545.0,
+                                        "y": 1219.0
+                                    },
+                                    {
+                                        "x": 764.0,
+                                        "y": 1209.0
+                                    },
+                                    {
+                                        "x": 766.0,
+                                        "y": 1248.0
+                                    },
+                                    {
+                                        "x": 546.0,
+                                        "y": 1258.0
+                                    }
+                                ]
+                            },
+                            "inferText": "10mg(내복)/1정",
+                            "inferConfidence": 0.9996,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 386.0,
+                                        "y": 1230.0
+                                    },
+                                    {
+                                        "x": 551.0,
+                                        "y": 1219.0
+                                    },
+                                    {
+                                        "x": 554.0,
+                                        "y": 1260.0
+                                    },
+                                    {
+                                        "x": 389.0,
+                                        "y": 1272.0
+                                    }
+                                ]
+                            },
+                            "inferText": "싱귤레어정",
+                            "inferConfidence": 0.9988,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineTime_5",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1038.0,
+                                "y": 1202.0
+                            },
+                            {
+                                "x": 1057.0,
+                                "y": 1202.0
+                            },
+                            {
+                                "x": 1057.0,
+                                "y": 1232.0
+                            },
+                            {
+                                "x": 1038.0,
+                                "y": 1232.0
+                            }
+                        ]
+                    },
+                    "inferText": "1",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1038.0,
+                                        "y": 1202.0
+                                    },
+                                    {
+                                        "x": 1057.0,
+                                        "y": 1202.0
+                                    },
+                                    {
+                                        "x": 1057.0,
+                                        "y": 1232.0
+                                    },
+                                    {
+                                        "x": 1038.0,
+                                        "y": 1232.0
+                                    }
+                                ]
+                            },
+                            "inferText": "1",
+                            "inferConfidence": 0.9999,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineDay_5",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1134.0,
+                                "y": 1191.0
+                            },
+                            {
+                                "x": 1170.0,
+                                "y": 1191.0
+                            },
+                            {
+                                "x": 1170.0,
+                                "y": 1232.0
+                            },
+                            {
+                                "x": 1134.0,
+                                "y": 1232.0
+                            }
+                        ]
+                    },
+                    "inferText": "3",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 1134.0,
+                                        "y": 1191.0
+                                    },
+                                    {
+                                        "x": 1170.0,
+                                        "y": 1191.0
+                                    },
+                                    {
+                                        "x": 1170.0,
+                                        "y": 1232.0
+                                    },
+                                    {
+                                        "x": 1134.0,
+                                        "y": 1232.0
+                                    }
+                                ]
+                            },
+                            "inferText": "3",
+                            "inferConfidence": 1.0,
+                            "lineBreak": true
+                        }
+                    ]
+                },
+                {
+                    "name": "medicineNo_6",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 165.12604,
+                                "y": 1269.623
+                            },
+                            {
+                                "x": 376.91412,
+                                "y": 1262.473
+                            },
+                            {
+                                "x": 375.39252,
+                                "y": 1315.402
+                            },
+                            {
+                                "x": 163.50763,
+                                "y": 1322.5065
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineName_6",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 378.95245,
+                                "y": 1262.4042
+                            },
+                            {
+                                "x": 871.2498,
+                                "y": 1245.7838
+                            },
+                            {
+                                "x": 869.9549,
+                                "y": 1298.8195
+                            },
+                            {
+                                "x": 377.43176,
+                                "y": 1315.3336
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineTime_6",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 990.04425,
+                                "y": 1241.7733
+                            },
+                            {
+                                "x": 1098.7053,
+                                "y": 1238.1047
+                            },
+                            {
+                                "x": 1097.515,
+                                "y": 1291.1893
+                            },
+                            {
+                                "x": 988.8039,
+                                "y": 1294.8345
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineDay_6",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1098.7053,
+                                "y": 1238.1047
+                            },
+                            {
+                                "x": 1207.4694,
+                                "y": 1234.4329
+                            },
+                            {
+                                "x": 1206.3292,
+                                "y": 1287.5409
+                            },
+                            {
+                                "x": 1097.515,
+                                "y": 1291.1893
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineNo_7",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 163.50763,
+                                "y": 1322.5065
+                            },
+                            {
+                                "x": 375.39252,
+                                "y": 1315.402
+                            },
+                            {
+                                "x": 373.8695,
+                                "y": 1368.3802
+                            },
+                            {
+                                "x": 161.88776,
+                                "y": 1375.4388
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineName_7",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 377.43176,
+                                "y": 1315.3336
+                            },
+                            {
+                                "x": 869.9549,
+                                "y": 1298.8195
+                            },
+                            {
+                                "x": 868.65875,
+                                "y": 1351.9045
+                            },
+                            {
+                                "x": 375.90973,
+                                "y": 1368.3123
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineTime_7",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 988.7562,
+                                "y": 1296.8763
+                            },
+                            {
+                                "x": 1097.4692,
+                                "y": 1293.232
+                            },
+                            {
+                                "x": 1096.2778,
+                                "y": 1346.368
+                            },
+                            {
+                                "x": 987.5147,
+                                "y": 1349.9888
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                },
+                {
+                    "name": "medicineDay_7",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1097.4692,
+                                "y": 1293.232
+                            },
+                            {
+                                "x": 1206.2852,
+                                "y": 1289.5844
+                            },
+                            {
+                                "x": 1205.1439,
+                                "y": 1342.744
+                            },
+                            {
+                                "x": 1096.2778,
+                                "y": 1346.368
+                            }
+                        ]
+                    },
+                    "inferText": "",
+                    "inferConfidence": 0.0,
+                    "type": "NORMAL"
+                }
+            ],
+            "title": {
+                "name": "prescription",
+                "boundingPoly": {
+                    "vertices": [
+                        {
+                            "x": 648.0,
+                            "y": 306.0
+                        },
+                        {
+                            "x": 1219.0,
+                            "y": 306.0
+                        },
+                        {
+                            "x": 1219.0,
+                            "y": 399.0
+                        },
+                        {
+                            "x": 648.0,
+                            "y": 399.0
+                        }
+                    ]
+                },
+                "inferText": "처 방 전",
+                "inferConfidence": 0.99990004,
+                "subFields": [
+                    {
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 648.0,
+                                    "y": 316.0
+                                },
+                                {
+                                    "x": 724.0,
+                                    "y": 316.0
+                                },
+                                {
+                                    "x": 724.0,
+                                    "y": 399.0
+                                },
+                                {
+                                    "x": 648.0,
+                                    "y": 399.0
+                                }
+                            ]
+                        },
+                        "inferText": "처",
+                        "inferConfidence": 0.9999,
+                        "lineBreak": false
+                    },
+                    {
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 890.0,
+                                    "y": 310.0
+                                },
+                                {
+                                    "x": 979.0,
+                                    "y": 310.0
+                                },
+                                {
+                                    "x": 979.0,
+                                    "y": 397.0
+                                },
+                                {
+                                    "x": 890.0,
+                                    "y": 397.0
+                                }
+                            ]
+                        },
+                        "inferText": "방",
+                        "inferConfidence": 0.9998,
+                        "lineBreak": false
+                    },
+                    {
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 1138.0,
+                                    "y": 306.0
+                                },
+                                {
+                                    "x": 1219.0,
+                                    "y": 306.0
+                                },
+                                {
+                                    "x": 1219.0,
+                                    "y": 389.0
+                                },
+                                {
+                                    "x": 1138.0,
+                                    "y": 389.0
+                                }
+                            ]
+                        },
+                        "inferText": "전",
+                        "inferConfidence": 1.0,
+                        "lineBreak": true
+                    }
+                ]
+            }
+        }
+    ]
+}
